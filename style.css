@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Dongle";
+    src: url(Dongle/Dongle-Bold.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(Dongle/Dongle-Regular.ttf);
+}
+body {
+    font-family: Dongle;
+    margin: 0px;
+}
+div.main-container {
+    width: 800px;
+    height: 1000px;
+    margin: 0px 0px 0px 250px;
+    background-image: linear-gradient(rgb(219, 213, 213), rgb(252, 252, 252), rgb(219, 213, 213));
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#ivana {
+    width: 28%;
+    height: 22%;
+    margin: 30px 0px 0px 5px;
+}
+p.name {
+    font-size: 100px;
+    color: rgb(29, 80, 114);
+    display: flex;
+    margin: -230px 0px 0px 260px;
+}
+p.dream {
+    font-size: 37px;
+    display: flex;
+    margin: -55px 0px 0px 260px;
+}
+div.line {
+    width: 67%;
+    border-bottom: 3px solid rgb(29, 80, 114);
+    margin-left: 260px;
+    margin-top: 20px;
+}
+span {
+    font-size: 40px;
+}
+p.contact {
+    font-family: regular;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-left: 255px;
+    color: rgb(63, 88, 105);
+}
+div.first-container {
+    width: 800px;
+    height: 235px;
+    margin-top: -10px;
+    background: rgb(230, 225, 225);
+}
+h1 {
+    color: rgb(46, 64, 77);
+    text-align: center;
+    padding-top: 5px;
+}
+p.p1 {
+    font-family: regular;
+    padding-left: 12px;
+    padding-right: 35px;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: -20px;
+    line-height: 22px;
+    color: rgb(94, 93, 93);
+}
+p.p2 {
+    font-family: regular;
+    padding-left: 12px;
+    padding-right: 35px;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: -5px;
+    line-height: 22px;
+    color: rgb(94, 93, 93);
+}
+div.image-container {
+    width: 400px;
+    height: 350px;
+    margin-top: 35px;
+}
+img.pic {
+    margin-top: -10px;
+    margin-left: 15px;
+    width: 15%;
+    height: 15%;
+    padding-bottom: 15px;
+}
+div.project-container {
+    width: 400px;
+    height: 380px;
+    background-image: linear-gradient(rgb(233, 232, 232), rgb(252, 252, 252), rgb(184, 181, 181));
+    margin-top: -370px;
+    margin-left: 400px;
+}
+h2.ecommerce{
+    margin-left: 25px;
+    margin-top: -15px;
+}
+span.bullet {
+    display: flex;
+    margin-top: -82px;
+    margin-left: 23px;
+    font-size: 40px;
+}
+p.project {
+    font-family: regular;
+    margin-left: 25px;
+    margin-top: -30px;
+    padding-right: 20px;
+    font-size: 22px;
+    line-height: 1;
+}
+p.built {
+    font-family: regular;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: -22px;
+    padding-right: 20px;
+    line-height: 1;
+}
+h2.multi {
+    margin-left: 25px;
+}
+footer {
+    font-family: regular;
+    font-size: 20px;
+    margin-top: 35px;
+    text-align: center;
+}
+img.imgfooter {
+    margin-left: 10px;
+    width: 3%;
+    height: 8%;
+}
+a.foot {
+    color: black;
+}
